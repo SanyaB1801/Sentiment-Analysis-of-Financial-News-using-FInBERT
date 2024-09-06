@@ -59,7 +59,7 @@ To get started with the "Sentiment Analysis using FinBERT" project, follow these
 ### Bar Chart
 Bar charts are used to display the distribution of sentiment scores across different categories (Negative, Neutral, Positive). They provide a clear, straightforward view of the frequency of each sentiment category.
 
-![Bar Chart of Sentiment Distribution](![image](https://github.com/user-attachments/assets/71ac5bc0-07f5-4dee-b18f-045fdfeb496c))
+![Bar Chart of Sentiment Distribution](![image](https://github.com/user-attachments/assets/71ac5bc0-07f5-4dee-b18f-045fdfeb496c)
 
 
 ### Pie Chart
@@ -71,18 +71,18 @@ Pie charts provide a visual representation of the proportion of different sentim
 ### Heatmap
 Heatmaps are utilized to show the correlation between different variables in the data set, possibly highlighting relationships between sentiment scores and other financial metrics.
 
-![Sentiment Heatmap](![image](https://github.com/user-attachments/assets/1da7ee3a-7f25-410e-a027-d2d8d8dd7df3))
+![Sentiment Heatmap](![image](https://github.com/user-attachments/assets/1da7ee3a-7f25-410e-a027-d2d8d8dd7df3)
 
 ### Waffle Chart
 Waffle charts provide a unique visual representation of market sentiments as parts of a whole, making it easy to visualize proportions in a more engaging way than pie charts.
 
-![Waffle Chart of Market Sentiments](![image](https://github.com/user-attachments/assets/6b648b45-367d-4c8b-b69a-688edde127a6))
+![Waffle Chart of Market Sentiments](![image](https://github.com/user-attachments/assets/6b648b45-367d-4c8b-b69a-688edde127a6)
 
 
 ### Bubble Plot 
 The bubble plot visually represents the frequency and intensity of sentiments across different texts. Larger bubbles indicate a higher occurrence of a particular sentiment. Here’s what you can expect:
 
-![Bubble Plot of Sentiment](![image](https://github.com/user-attachments/assets/775fb091-812b-488d-968e-8c737e8b207a))
+![Bubble Plot of Sentiment](![image](https://github.com/user-attachments/assets/775fb091-812b-488d-968e-8c737e8b207a)
 
 These visualizations help in quickly understanding the general sentiment trends in the financial news data from Yahoo Finance.
 
