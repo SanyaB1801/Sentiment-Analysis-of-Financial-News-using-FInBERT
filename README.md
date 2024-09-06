@@ -1,4 +1,4 @@
-# Sentiment Analysis using FinBERT
+# Financial News Sentiment Analysis
 
 ## Overview
 This project leverages the FinBERT model, a BERT variant fine-tuned specifically for financial text, to perform sentiment analysis on data sourced from Yahoo Finance. It provides insights into the market sentiment by categorizing financial news into negative, neutral, and positive sentiments.
