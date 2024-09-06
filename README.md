@@ -25,6 +25,22 @@ To get this project up and running, follow these steps:
    pip install -r requirements.txt
    ```
 
+## Output
+- **Sentiment Scores**: After analyzing the financial text, the project outputs sentiment scores that categorize the text as positive, negative, or neutral.
+- **Visualizations**: Generates bubble plots that visually represent the sentiment distribution over various texts analyzed.
+- **Reports**: Optionally, detailed sentiment reports can be generated as output, summarizing the overall sentiment and highlighting key phrases that influenced the sentiment score.
+
+## Data Source
+- **Yahoo Finance**: This project utilizes financial news and stock market data from Yahoo Finance to perform sentiment analysis. Ensure that you adhere to Yahoo Finance's terms of service when using their data.
+
+### Updated Usage Section (including Yahoo Finance)
+To include the specifics of using Yahoo Finance data in the usage section of the README, you might add:
+
+## Usage
+1. **Prepare Data**: Download your financial text data from Yahoo Finance. Ensure the data format is compatible with the script requirements.
+2. **Run Analysis**: Execute the script to analyze the sentiment of financial news obtained from Yahoo Finance.
+
+
 ## Usage
 To perform sentiment analysis using the FinBERT model, follow these steps:
 
