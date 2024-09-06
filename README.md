@@ -1,64 +1,68 @@
 # Sentiment Analysis using FinBERT
 
 ## Overview
-This project applies the FinBERT model, a BERT-based model pre-trained specifically for financial text, to perform sentiment analysis. It is designed to help analysts, investors, and financial enthusiasts gauge the sentiment from financial news and reports to aid in decision-making.
+This project leverages the FinBERT model, a BERT variant fine-tuned specifically for financial text, to perform sentiment analysis on data sourced from Yahoo Finance. It provides insights into the market sentiment by categorizing financial news into negative, neutral, and positive sentiments.
 
 ## Features
-- **Sentiment Classification**: Classifies sentiments into categories such as positive, negative, and neutral.
-- **Data Visualization**: Provides bubble plots of sentiment analysis results for easy interpretation.
-- **Customizable Analysis**: Users can input their financial text and receive sentiment analysis results.
+- **Automated Data Acquisition**: Automatically downloads data from Yahoo Finance.
+- **FinBERT Sentiment Analysis**: Utilizes the pre-trained FinBERT model to assess and categorize sentiment from financial texts.
+- **Categorical Output**: Converts sentiment scores into categorical labels (negative, neutral, positive).
+- **Visualization**: Includes bubble plots to visually represent sentiment distributions across texts.
 
 ## Prerequisites
-Before you can run this project, you need to have the following installed:
-- Python 3.8 or newer
+Ensure you have the following prerequisites installed:
+- Python 3.8+
 - pip (Python package installer)
 
 ## Installation
-To get this project up and running, follow these steps:
-
-1. Clone the repository:
+1. Clone this repository:
    ```bash
-   git clone https://https://github.com/SanyaB1801/Sentiment-Analysis-of-Financial-News-using-FInBERT.git
+   git clone https://github.com/SanyaB1801/Sentiment-Analysis-of-Financial-News-using-FInBERT.git
    ```
-2. Install the required Python packages:
+2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-## Output
-- **Sentiment Scores**: After analyzing the financial text, the project outputs sentiment scores that categorize the text as positive, negative, or neutral.
-- **Visualizations**: Generates bubble plots that visually represent the sentiment distribution over various texts analyzed.
-- **Reports**: Optionally, detailed sentiment reports can be generated as output, summarizing the overall sentiment and highlighting key phrases that influenced the sentiment score.
-
-## Data Source
-- **Yahoo Finance**: This project utilizes financial news and stock market data from Yahoo Finance to perform sentiment analysis. Ensure that you adhere to Yahoo Finance's terms of service when using their data.
-
-### Updated Usage Section (including Yahoo Finance)
-To include the specifics of using Yahoo Finance data in the usage section of the README, you might add:
-
 ## Usage
-1. **Prepare Data**: Download your financial text data from Yahoo Finance. Ensure the data format is compatible with the script requirements.
-2. **Run Analysis**: Execute the script to analyze the sentiment of financial news obtained from Yahoo Finance.
 
+To get started with the "Sentiment Analysis using FinBERT" project, follow these steps:
 
-## Usage
-To perform sentiment analysis using the FinBERT model, follow these steps:
+1. **Open the Notebook**:
+   - Download the Jupyter notebook from the repository.
+   - Open the notebook in an environment that supports Jupyter, such as Jupyter Lab, Jupyter Notebook, or an IDE like Visual Studio Code with Jupyter support.
 
-1. Navigate to the project directory:
-   ```bash
-   cd Sentiment_Analysis_using_FinBERT
-   ```
-2. Run the script with the command:
-   ```bash
-   python sentiment_analysis.py
-   ```
-3. Follow the on-screen prompts to input your financial text.
+2. **Install Dependencies**:
+   - Ensure all dependencies are installed by running the following command in your notebook:
+     ```python
+     !pip install -r requirements.txt
+     ```
+
+3. **Run the Notebook**:
+   - Execute the cells sequentially to understand the flow:
+     - **Data Acquisition**: The notebook will show how to automatically fetch financial texts from Yahoo Finance.
+     - **Load Tokenizer and Model**: Instructions and code cells to load the necessary FinBERT model.
+     - **Tokenization**: Steps to tokenize the fetched data.
+     - **Sentiment Analysis**: Apply sentiment analysis and observe the outputs directly in the notebook.
+     - **Visualization**: Visualize the sentiment analysis results with bubble plots within the notebook.
+
+4. **Interact**:
+   - Modify the code or parameters as needed to perform sentiment analysis on different texts or to refine the results.
+   - Experiment with different sections to see how changes affect the outcomes.
+
+5. **Save and Share**:
+   - Save your modifications to the notebook.
+   - Share your version of the analysis if desired by pushing it back to a repository or through other means.
 
 ## Contributing
-We welcome contributions to this project! If you have suggestions or improvements, please fork the repository and submit a pull request.
+Contributions are welcome! Please fork the project, make your changes, and submit a pull request.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
 
 ## Acknowledgments
-- Thanks to the creators of the FinBERT model for providing the tools to analyze financial texts.
+- Thanks to the FinBERT model authors and Hugging Face for providing the tools necessary for this analysis.
+- Yahoo Finance for providing the data.
+
+---
