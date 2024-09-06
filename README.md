@@ -59,30 +59,34 @@ To get started with the "Sentiment Analysis using FinBERT" project, follow these
 ### Bar Chart
 Bar charts are used to display the distribution of sentiment scores across different categories (Negative, Neutral, Positive). They provide a clear, straightforward view of the frequency of each sentiment category.
 
-![Bar Chart of Sentiment Distribution](https://github.com/user-attachments/assets/71ac5bc0-07f5-4dee-b18f-045fdfeb496c)
+![Bar Chart of Sentiment Distribution](https://github.com/user-attachments/assets/ff8bef10-c884-4a47-9625-99b579b36e2d)
+
 
 
 ### Pie Chart
 Pie charts provide a visual representation of the proportion of different sentiment categories within the dataset, offering an intuitive view of the overall sentiment distribution.
 
-![Pie Chart of Sentiments](https://github.com/user-attachments/assets/2ff888d1-cedd-4463-9dd7-dc8c9e89f054)
+![Pie Chart of Sentiments](https://github.com/user-attachments/assets/3ee295d1-54f7-4d21-b73b-f792e5103600)
+
 
 
 ### Heatmap
 Heatmaps are utilized to show the correlation between different variables in the data set, possibly highlighting relationships between sentiment scores and other financial metrics.
 
-![Sentiment Heatmap](https://github.com/user-attachments/assets/1da7ee3a-7f25-410e-a027-d2d8d8dd7df3)
+![Sentiment Heatmap](https://github.com/user-attachments/assets/7a71b6f3-971a-4f4f-9ea6-7224692c8d0f)
+
 
 ### Waffle Chart
 Waffle charts provide a unique visual representation of market sentiments as parts of a whole, making it easy to visualize proportions in a more engaging way than pie charts.
 
-![Waffle Chart of Market Sentiments](https://github.com/user-attachments/assets/6b648b45-367d-4c8b-b69a-688edde127a6)
+![Waffle Chart of Sentiments](https://github.com/user-attachments/assets/bd6aa9ba-6484-4cb6-b97d-c3054dfbdb4f)
 
 
 ### Bubble Plot 
 The bubble plot visually represents the frequency and intensity of sentiments across different texts. Larger bubbles indicate a higher occurrence of a particular sentiment. Here’s what you can expect:
 
-![Bubble Plot of Sentiment](https://github.com/user-attachments/assets/775fb091-812b-488d-968e-8c737e8b207a)
+![Bubble Plot of Sentiment](https://github.com/user-attachments/assets/57a724d0-4c1e-4e21-a4f7-11d309a87ee0)
+
 
 These visualizations help in quickly understanding the general sentiment trends in the financial news data from Yahoo Finance.
 
